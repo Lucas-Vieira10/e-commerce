@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+	margin: 0px;
+	padding: 0px;
+    font-family:'Inter';
+    text-align: center;
+    background-image: linear-gradient(#414444, #747A84);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    letter-spacing: normal;
+    
+} 
+/*nav barra de navegação*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(23,22,22,1) 6%, rgba(70,45,148,1) 46%, rgba(54,31,121,1)100%);
+    border-bottom: 1px solid #615c5c;
+    z-index: 1000;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10%;
+}
+
+.nav-bar {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    transition: .2s;
+}
+
+.nav-bar li a:hover {
+    color: #25292e;
+}
+/*/nav*/
+
+/*meio do site*/
+#imagens img {
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 10%;
+    margin-left: 0%;
+}    
+#imagens{
+    background-color: #000000;
+}
+/*/meio do site*/
+
+/*compras*/
+.meio {
+    background-color: #414444;
+    padding: 50px 0;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.games {
+    margin: 40px;
+    padding: 40px;
+    background-color: #757b84;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.games:hover {
+    transform: translateY(-5px);
+}
+
+.games img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.games p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.games button {
+    width: 75px ;
+    height: 125px ;
+    padding: 10px 20 px;
+    background-color: #494b4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.games button:hover {
+    background-color: #25292e;
+}

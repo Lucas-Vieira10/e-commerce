@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(90deg, rgba(23,22,22,1) 6%, rgba(70,45,148,1) 46%, rgba(54,31,121,1) 100%);
+    text-align: center;
+    color: white;
+    
+}
+li{
+    text-align: left;
+}
